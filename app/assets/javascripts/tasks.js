@@ -1,3 +1,4 @@
+
   $(function() {
     // The taskHtml method takes in a JavaScript representation
     // of the task and produces an HTML representation using
@@ -58,6 +59,7 @@
         var ulTodos = $('.todo-list');
         ulTodos.append(htmlString);
         $('.toggle').click(toggleTask);
+        $('.new-todo').val('');
       });
     });
 
